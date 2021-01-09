@@ -1,0 +1,19 @@
+---
+title: a new post
+author: yvan
+date: '2021-01-09'
+slug: a-new-post
+bibliography: [sample.bib]
+biblio-style: chronological
+csl: ieee.csl
+nocite: '@*'
+categories: []
+tags: []
+---
+
+This is where I ramble a lot.
+
+## References
+<div id="refs"></div>
+
+# Appendix
