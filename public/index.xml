@@ -1,55 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on Yvan Gauthier</title>
-    <link>https://example.com/</link>
-    <description>Recent content in About on Yvan Gauthier</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>a new post</title>
-      <link>https://example.com/post/a-new-post/</link>
-      <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/post/a-new-post/</guid>
-      <description>This is where I ramble a lot.
-References [1] Y. Gauthier, W. Wardrop, A. Price, and A. Lawrence, “The size of MARS: Quantifying requirements for the Royal Navy’s future afloat support fleet,” 2008.
- [2] Y. Gauthier and J. Adamsson, “Decision support tools for domestic security operations,” Information &amp;amp; Security, vol. 27, no. 1, p. 123, 2011.
- [3] Y. Gauthier and P. Archambault, “Informing strategic decision-making on force posture and readiness,” 2016.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>https://example.com/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>https://example.com/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://example.com/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/contact/</guid>
-      <description> Email: foo@xyz.com Phone: +91-123123   Mailing Address  221B, Baker Street
-London
-United Kingdom
-  Social  Facebook Twitter Google+  </description>
-    </item>
-    
+    <title>Yvan Gauthier</title>
+    <link>https://ygauthie.github.io/</link>
+    <description>Recent content on Yvan Gauthier</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ygauthie.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yvan Gauthier</title>
-      <link>https://example.com/about/</link>
+      <link>https://ygauthie.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/about/</guid>
-      <description>About Me  This is a Hugo based resume template. You can find the full source code on GitHub.
-Research Interest bald djf Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis1. Mauris id urna ante.
-Fusce pharetra diam ac nisi aliquet, velegestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit2. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.</description>
+      <guid>https://ygauthie.github.io/</guid>
+      <description>About Me  I am senior data scientist with the National Research Council Digital Technologies. As part of the NRC’s Data Analytics Centre, I lead initiatives aiming to accelerate the adoption of data analytics and AI in the public service.
+Before, I worked with the Centre for Operational Research and Analysis of Defence Research and Development Canada, where I became the first-ever Director of Data Science in the Department of National Defence (DND) and built a data science team supporting the Chief Data Officer and Assistant Deputy Minister (Data, Innovation, Analytics).</description>
     </item>
     
   </channel>

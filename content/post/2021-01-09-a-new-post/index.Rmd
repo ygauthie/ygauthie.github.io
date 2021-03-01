@@ -4,16 +4,20 @@ author: yvan
 date: '2021-01-09'
 slug: a-new-post
 bibliography: [sample.bib]
-biblio-style: chronological
 csl: ieee.csl
-nocite: '@*'
+biblio-style: unsrt
 categories: []
 tags: []
+nocite: |
+  @gauthier2018data, @gauthier2011decision, @gauthier2008size
+
 ---
 
 This is where I ramble a lot.
 
+
 ## References
 <div id="refs"></div>
 
-# Appendix
+
+

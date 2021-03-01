@@ -1,0 +1,22 @@
+---
+title: a new post
+author: yvan
+date: '2021-01-09'
+slug: a-new-post
+bibliography: [sample.bib]
+csl: apa.csl
+biblio-style: chronological
+nocite: '@*'
+categories: []
+tags: []
+---
+
+This is where I ramble a lot.
+
+And add citations:
+
+
+## References
+<div id="refs"></div>
+
+# Appendix
