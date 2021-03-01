@@ -6,7 +6,7 @@ csl: ieee.csl
 biblio-style: unsrt
 ---
 
-## About Me 
+##  
 
 <figure class="avatar">
   <img src="avatar3.png" alt="">
