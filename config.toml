@@ -5,7 +5,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 math = false          # enable KaTeX (https://katex.org/) globally
-googleAnalytics = "G-H7F69T7BL1"  # add your tracking id
+googleAnalytics = "G-X97HLN3WFC"  # add your tracking id
 
 [params]
   author = "Yvan Gauthier"
@@ -23,10 +23,10 @@ googleAnalytics = "G-H7F69T7BL1"  # add your tracking id
   #name = "Presentations"
   #url = "/about"
   #weight = 1
-  #[[menu.main]]
-  #name = "Posts"
-  #url = "/Post"
-  #weight = 1
+  [[menu.main]]
+  name = "Posts"
+  url = "/Post"
+  weight = 1
   [[menu.main]]
   name = "Resume "
     # 'pre' and 'post' hooks are available
