@@ -1,0 +1,102 @@
+---
+title: How to select the right project(s) when launching into AI
+author: Yvan
+date: '2021-03-08'
+slug: prioritization-appproach
+---
+
+# How to select the right project(s) when launching into AI
+
+Organisations launching into AI must carefully select projects that can generate value quickly, in order to gain momentum, demonstrate results, and minimize the risk losing support from executives.  
+
+In this post, I describe a project selection approach and a matrix tool that I originally developed in 2018 for the Chief Data Officer of the Department of National Defence in Canada. It involves rapid yet systematic assessments of candidate projects’ feasibility (complexity), cost, and expected impact. The method is simple and quick to apply, and can easily scale up when several options need to be compared. Results are presented in an interactive matrix, which decision makers can use to identify "quick wins" (i.e., high feasibility, high impact AI projects) that the organisation should undertake in priority.
+
+## Prioritization approach
+Several prioritization methods are used in industry to inform the development of new software or digital products. However, many of these methods, for instance the Analytic Hierarchy Process [5], can be time-consuming and relatively difficult to apply [4, 6], especially when a large number of options need to be compared. 
+
+The approach I present here involves assessing both the feasibility (probability of success) of candidate projects and their impact, considering multiple factors. The result is a prioritization matrix that can inform project selection.  Such a prioritization matrix is often recommended for selecting promising AI use cases [1, 3, 8], but how to assess the impact and feasibility of candidate solutions is often left to interpretation. The following sections describe an assessment approach broadly applicable to most organisations.
+
+### Feasibility assessment
+I define here the feasibility of an AI project as its  chances  of  success,  based  on  four  main complexity dimensions (Table 1). There are probably other ways of characterizing feasibility, but the four complexity dimensions listed above probably encapsulate the various elements requiring consideration in most scenarios.
+
+**Table 1**: Main factors to consider during feasibility assessment.
+
+| Dimension | Description | Factors to consider |
+| --------- | --------- | --------- |
+| Data complexity | What  are  the  chances  that  adequate data will be obtained for the solution? |  Number of data sources involved, data quality for each source (e.g., accessibility, trustworthiness, precision, latency, cleanliness), etc. |
+| Analytical complexity | What are the chances that an adequate analytical model will be developed for the solution? | Nature  and  complexity  of  the  problem,  applicable modeling technique(s) and expected performance, availability of skills, amount of background research required, etc. |
+| Political complexity | What are the chances that adequate support  will  exist  for  the  solution? | Support from leadership and concerned business units, alignment with policies, regulations, and business strategy, legal and ethical challenges, funding sources, etc. |
+| Implementation complexity | What are the chances that the solution will be adequately implemented for routine operation and decision-making? | Technical  constraints  to  deployment,  user resistance to change, maintenance requirements, need for new training and new operating procedures, etc. |
+
+The term “adequate” in the description of each dimension assumes that the objectives and context of each AI project are broadly understood by those conducting the feasibility assessments, although they do not need to be precisely set. The point of the method is to do a quick first pass at multiple candidate projects, before doing any substantial experimentation or detailed feasibility study.  For the same reason, the chances of success associated with each of the four dimensions can be quickly set using the rating scale below. A comment in free-form text can be added to explain the ratings.
+
+**Table 2**: Rating scale for each feasibility factor (adapted from Kesselman [9]).
+
+| Rating | Probability of success |
+| --------- | --------- |
+| Certain / already done |  100% |
+| Almost certain | 86-99% |
+| Highly likely  | 71-85% |
+| Likely | 56-70% |
+| About even chances | 46-55% |
+| Unlikely |  31-45% |
+| Highly unlikely |  16-30% |
+| Remote | 1-15% |
+| Impossible | 0% |
+
+The overall feasibility, or overall chance of success of a use case, is estimated as the product of the mid-point probabilities associated with each of the four feasibility factors. For example, a use case for which the four feasibility factors are deemed “Almost certain” will be given an overall probability of success of 93% × 93% × 93% × 93% ≈ 75%, assuming complexity factors are independent of each other. 
+
+### Impact assessment
+
+The impact represents the value expected to be generated by an AI solution. This can be difficult to determine precisely in some domains of applications , but order-of-magnitude estimates can be made qualitatively. Table 3 proposes an impact scale inspired from Gartner’s approach to technology impact assessments.
+
+**Table 3**: Rating scale for use case impact (partly adapted from Gartner [10]).
+
+| Impact Rating | Description |
+| --------- | --------- |
+| Transformational |  Solution enables new ways of doing business across the organisation that will result in major shifts in organisational dynamics and huge gains in productivity or readiness. |
+| High | Solution enables new ways of performing horizontal or vertical processes in the organisation that will result in a significant gains in productivity or readiness. |
+| Moderate | Solution provides incremental gains in organisational productivity or readiness. |
+| Low | Solution slightly improves processes in the organisation that will be difficult to translate into increased productivity or readiness. |
+
+The rating scale implicitly assumes that the value of a solution will ultimately translates into productivity gains (e.g., through increased performance and/or reduced costs) and/or readiness improvements (e.g., through an increased capacity to deliver effects - a more appropriate measure than productivity for certain organisations like militaries or first-responders). The scale is deliberately qualitative to simplify the impact assessment and make the tool broadly applicable to
+any organisation or industry. Again, a comment in free-form text can be added to explain the rating given to each use case.
+
+Note that the term “organisation” in the rating scale can be defined differently depending on who is using the tool. A solution deemed to have a High impact on a small team  may only have a Moderate impact on the branch that includes that team, and a Low impact on the entire organisation. Accordingly, to ensure fair comparisons, a single interpretation of “organisation” must be used throughout the prioritization exercise.
+
+### Other factors
+
+Beyond assessing feasibility and impact, it is also necessary to capture a rough order of magnitude (ROM) cost potentially incurred for each use case.  Different units of costs or resources may be used (e.g., person-weeks, person-months, currency value), as long as they remain consistent for all candidate projects.
+
+We can also group use cases into different categories based on the branch of the organisation, priority areas, or field of application (e.g., personnel management, supply chain, finance, infrastructure) and colour-code the candidates accordingly.
+
+## Matrix tool
+
+To conduct and visualize the assessments described earlier, I have developed a matrix tool composed of two elements: 
+
+-  a [spreadsheet](https://docs.google.com/spreadsheets/d/1Iqg-Q3CFoJZ2dPiel9G8UdLRoEhVlaGff9Tx8lqi6wc/edit?usp=sharing) where all candidate use cases can be listed and assessed as per the criteria described before, and;
+-  an [interactive prioritization matrix](https://observablehq.com/@ygauthie/ai-use-case-prioritization-matrix) to visualize the results (see below). Details of each use case are displayed when hovering over the circles.
+
+<iframe width="100%" height="633" frameborder="0"
+  src="https://observablehq.com/embed/@ygauthie/ai-use-case-prioritization-matrix?cells=chart%2CmyStyles"></iframe>
+
+<br>The primary purpose of the matrix is to quickly pinpoint the highest-value use cases with the highest chances of success,  which appear  in  the  upper  right-hand  side  of  the  matrix (in gray). In my experience, it is not that easy to find "quick wins", as transformational projects on an enterprise scale tend to be very complex (and costly).  But quick wins **can** be found, especially when organisations have already done a good job at collecting and managing their data, and these should be primarily considered whenever they can be identified.  
+
+In a second time, decision makers may want to include a mix low-hanging fruits (high feasibility, low impact) or big hitters (high impact, low feasibility) in their portfolio of AI projects. But they should certainly avoid any use case appearing in the lower, left-hand section of the matrix.  Candidate options in this region are likely to waste resources, show slow results, and ultimately lead to skepticism from senior management that the team delivering AI is worth investing in.
+
+## Conclusion
+
+
+1. irtem
+2. itmd
+
+Data analytics and AI have already transformed many industries. In most organisations, however, significant benefits remain to be realized and a lot of data could be better exploited through AI. Identifying and selecting the right opportunities is critical, but there is currently no standard approach to do it.  
+
+A prioritization matrix such as the one presented above can be quickly build and can be very useful for identifying projects that are both feasible and potentially very beneficial. The underlying assessment method is broadly applicable and can be exploited by Chief Data Officer (CDOs), Chief Analytics Officers (CAOs) or Chief Information Officers (CIOs) of organisations wanting to advance their data strategies and AI strategies. 
+
+1. irtem
+2. itmd
+
+
+
+
